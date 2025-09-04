@@ -49,3 +49,24 @@ console.log(1 + 2 + "2") // "32"
 console.log(3 - "1") // 2
 console.log("3" - 1) // 2
 console.log("3" - "1") // 2
+console.log("hello" - "world") // NaN
+
+console.log(+true) // 1
+console.log(+"") // 0
+
+let num1,num2,num3
+num1 = num2 = num3 = 2 + 2
+console.log(num1,num2,num3) // 4 4 4
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter) // 101
+gameCounter--
+console.log(gameCounter) // 100
+
+console.log(3 * "8") // 24
+console.log("24" / 6) // 4
+console.log(2 ** 3) // 8
+console.log(27 ** (1/3)) // 3
+
+//link to study
