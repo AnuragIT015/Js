@@ -17,5 +17,17 @@ console.log(gameName.charAt(1)) // a
 console.log(gameName.indexOf('a')) // 1
 console.log(gameName.lastIndexOf('a')) // 3
 console.log(gameName.slice(0,4)) // valo
+console.log(gameName.slice(-8,3)) // val
 console.log(gameName.split('a')) // [ 'v', 'lor', 'nt' ]
 console.log(gameName.replace('valorant', 'cod')) // cod
+
+let newGame = "    valorant    "
+console.log(newGame) // '    valorant    '
+console.log(gameName.trim()) // valorant
+
+const url = "https://www.google.com"
+// ...existing code...
+console.log(url.replace('https://www.', '')) // google.com
+console.log(url.includes('google')) // true
+// ...existing code...
+
