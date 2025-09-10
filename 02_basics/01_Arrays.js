@@ -42,3 +42,7 @@ console.log("C",myArr) // C [ 0, 4, 5 ]
 console.log(myn2) // [ 1, 2, 3 ]
 
 console.log(myArr) // [ 0, 4, 5 ]
+
+// splice manupuletes the original array while slice does not
+
+
