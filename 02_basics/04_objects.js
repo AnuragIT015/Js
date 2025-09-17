@@ -54,6 +54,26 @@ console.log(Object.entries(tinderUser)) // [ [ 'id', '123abc' ], [ 'isLoggedIn',
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn")) // true
 
+const course = {
+    couresname: "js in hindi",
+    price: "999",
+    courseInstructor: "Anurag"
+
+}
+
+const {courseInstructor} = course
+
+console.log(courseInstructor) // Anurag
+
+// const {courseInstructor: instructor} = course
+// console.log(instructor) // Anurag
+
+const navbar = ({company}) =>{
+
+}
+
+navbar(company = "Anurag") // passing object as argument(restructuring object)
+ 
 
 
 
