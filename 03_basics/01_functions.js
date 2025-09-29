@@ -46,6 +46,40 @@ console.log(loginUserMessage()) // undefined just loggedin
 }
 console.log(loginUserMessage()) // please enter a valid username
 */
+function calculateCartPrice(...num1){ // ... rest operator
+    return num1
+}
+
+console.log(calculateCartPrice(200,400,500)) // [ 200, 400, 500 ]
+
+function calculateCartPrice1(discount, ...num1){
+    return num1
+}
+
+console.log(calculateCartPrice1(10,20,30,40)) // [ 20, 30, 40 ]
+
+const user ={
+    username: "Anurag",
+    price:199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyonject.price}`)
+}
+
+handleObject(user) // Username is Anurag and price is 199
+
+handleObject({
+    username:"anurag",
+    price:200
+}) //Username is anurag and price is 200
+
+const myArray = [200,400,100,600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+console.log(returnSecondValue(myArray)) // 400
 
 
 
