@@ -23,4 +23,4 @@
 ((username) => {
     console.log(`${username}`);
     
-})('Anurag'); // Anurag)
+})('Anurag'); // Anurag )
