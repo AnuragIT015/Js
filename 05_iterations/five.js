@@ -59,3 +59,15 @@ const newNums2 = myNums.filter( (num)=> {
     return num%2===0
 }) // when using { } you need to use return
 
+console.log(newNums2); // [ 2, 4, 6, 8, 10 ]
+
+const newNums3 = []
+myNums.forEach( (num) => {
+    if(num>4){
+        newNums3.push(num)
+    }
+})
+
+console.log(newNums3); // [ 5, 6, 7, 8, 9, 10 ] 
+
+
