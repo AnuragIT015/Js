@@ -15,6 +15,15 @@
    const div = document.createElement('div');
    console.log(div);
    div.className = "main"
-   div.id = "my-id "
+   div.id = Math.round(Math.random()*10+1);
+   div.setAttribute('title','genereted title');
+   div.style.backgroundColor = "#444";
+   div.style.padding = "20px";
+   //div.innerHTML = "Chai aur Code";
+   
+   const text = document.createTextNode('Chai aur Code');
+   div.appendChild(text);
+   document.body.appendChild(div);
+
 </script>
 </html>
