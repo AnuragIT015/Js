@@ -1,4 +1,4 @@
-/*
+
 // **************** Conversion of datatypes ****************
 
 // conversion operation
@@ -28,7 +28,7 @@ console.log(typeof stringNumber) // string
 // 33 => "33"
 // true => "true"; false =  > "false" 
 // null => "null"; undefined => "undefined"
-*/
+
 // **************** Operations ****************
 
 let value = 3
