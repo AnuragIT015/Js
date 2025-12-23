@@ -13,8 +13,20 @@
 4	DONE	The operation is complete.
 </body>
 <script>
+    const requestUrl = 'https://api.github.com/users/AnuragIT015';
     const xhr = new XMLHttpRequest();
-    xhr.open()
+    xhr.open('GET', requestUrl, true);
+    xhr.onreadystatechange = function() {
+        console.log(xhr.readyState);
+    }
+    console.log(xhr.readyState); // 1
+    if( xhr.readyState === 4 ){
+        const data = JSON.parse(xhr.responseText);
+        console.log(typeof data);
+        console.log(data.followers );
+    }
+    xhr.send();
+
 </script>
 
 </html>
